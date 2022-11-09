@@ -1,0 +1,84 @@
+
+*{
+  margin: 0px;
+padding: 0px;
+}
+
+
+.mainNav{
+  background-image: url("https://cdn1.tripoto.com/assets/2.9/img/home_banner_road.jpg");
+}
+.navbar {
+  /* margin-top: -520px; */
+  height: 10%;
+  /* background:white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .navbar::after{
+  margin-top: -520px;
+
+} */
+.image{
+  width: 100px;
+    border-radius: 54%;
+    padding: 26px;
+    mix-blend-mode: luminosity;
+    margin-top: 4px;
+}
+
+.navbar-logo {
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 10rem;
+}
+
+.nav-items {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: flex-end;
+  margin-right: 2rem;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  height: 10vh;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  margin-right: 2rem;
+  padding: 6px 16px;
+  border-radius: 5px;
+}
+
+.nav-item a:hover {
+  background: rgb(171, 184, 184);
+}
+
+.btn {
+  border: none;
+  background: transparent;
+  padding: 6px 16px;
+  font-size: 1.1rem;
+  color: white;
+  background: rgb(0, 212, 212);
+  border-radius: 5px;
+  transition: 0.3s all ease-out;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: rgb(0, 212, 212);
+  background: white;
+}
