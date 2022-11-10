@@ -5,9 +5,7 @@ padding: 0px;
 }
 
 
-.mainNav{
-  background-image: url("https://cdn1.tripoto.com/assets/2.9/img/home_banner_road.jpg");
-}
+
 .navbar {
   /* margin-top: -520px; */
   height: 10%;
@@ -81,4 +79,11 @@ padding: 0px;
 .btn:hover {
   color: rgb(0, 212, 212);
   background: white;
+}
+
+.inputClass{
+  padding: 20px 223px;
+  margin: 20px 40px 50px 40px;
+  text-align: left;
+  border-radius: 14px;
 }

@@ -8,14 +8,15 @@ export const navItems = [
   {
     id: 2,
     title: "Forum",
-    path: "./services",
+    path: "/Forum",
     cName: "nav-item",
   },
   {
     id: 3,
     title: "Packages",
-    path: "./products",
+    path: "/packages",
     cName: "nav-item",
+    url:"https://cdn1.tripoto.com/media/filter/nxxl/img/311219/Image/1573737581_screen_shot_2019_11_14_at_6_46_59_pm.jpg"
   }
 ];
 
@@ -23,25 +24,25 @@ export const serviceDropdown = [
   {
     id: 1,
     title: "Visit Singapore",
-    path: "./marketing",
+    path: "/Visit Singapore",
     cName: "submenu-item",
   },
   {
     id: 2,
     title: "Beaches",
-    path: "./consulting",
+    path: "/Beaches",
     cName: "submenu-item",
   },
   {
     id: 3,
     title: "Mountains",
-    path: "./design",
+    path: "/Mountains",
     cName: "submenu-item",
   },
   {
     id: 4,
     title: "Heritage",
-    path: "./development",
+    path: "/Heritage",
     cName: "submenu-item",
   },
 ];

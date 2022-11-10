@@ -1,0 +1,92 @@
+{
+    "packages": [
+        {
+          "image-100 src": "https://cdn1.tripoto.com/media/filter/tst/img/2176903/Image/1660666126_image_covera.jpg",
+          "margin-top-small": "Explore Auroville Like a Local on a Bicycle As You Stay On a Rustic Farm | Beyond Community",
+          "color-dark-green": "Auroville",
+          "background-dark-green": "3D · 2N",
+          "display-inline-block 2": "₹ 6,000",
+          "overflow-hidden src": "https://cdn1.tripoto.com/media/filter/mss/img/2165009/UserPhoto/1628574904_tripoto_s_mindful_retreats.jpg"
+        },
+        {
+          "image-100 src": "https://cdn1.tripoto.com/media/filter/tst/img/2176903/Image/1660316705_image_cover_1.jpg",
+          "margin-top-small": "Explore Hidden Trails to Forests and Waterfalls Around a Cozy Himalayan | Cosmic Geeks, Dharamkot",
+          "color-dark-green": "Himachal Pradesh",
+          "background-dark-green": "3D · 2N",
+          "display-inline-block 2": "₹ 7,000",
+          "overflow-hidden src": "https://cdn1.tripoto.com/media/filter/mss/img/2165009/UserPhoto/1628574904_tripoto_s_mindful_retreats.jpg"
+        },
+        {
+          "image-100 src": "https://cdn1.tripoto.com/media/filter/tst/img/2163002/Image/1638778652_image_cover_b.jpg",
+          "margin-top-small": "Learn to Cook a Traditional Rajasthani Meal at a 200 Year-Old Luxury Haveli",
+          "color-dark-green": "Rajasthan",
+          "background-dark-green": "2D · 1N",
+          "display-inline-block 2": "₹ 3,799",
+          "overflow-hidden src": "https://cdn1.tripoto.com/media/filter/mss/img/2165009/UserPhoto/1628574904_tripoto_s_mindful_retreats.jpg"
+        },
+        {
+          "image-100 src": "https://cdn1.tripoto.com/media/filter/tst/img/2176903/Image/1653391344_ln_c1.jpg",
+          "margin-top-small": "Explore an Artist’s Estate & Stay in a Kathkuni Home Hidden in Manali's Forests | NORTH",
+          "color-dark-green": "Manali",
+          "background-dark-green": "3D · 2N",
+          "display-inline-block 2": "₹ 9,850",
+          "overflow-hidden src": "https://cdn1.tripoto.com/media/filter/mss/img/2165009/UserPhoto/1628574904_tripoto_s_mindful_retreats.jpg"
+        },
+        {
+          "image-100 src": "https://cdn1.tripoto.com/media/filter/tst/img/2176903/Image/1654504108_ce_c1.jpg",
+          "margin-top-small": "Trek to Triund and Stay At The Residence Of Kangra’s Maharaja | Clouds End Villa, Dharamshala",
+          "color-dark-green": "Dharamshala",
+          "background-dark-green": "4D · 3N",
+          "display-inline-block 2": "₹ 13,750",
+          "overflow-hidden src": "data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        },
+        {
+          "image-100 src": "https://cdn1.tripoto.com/media/filter/tst/img/2176903/Image/1645772836_image_cover.jpg",
+          "margin-top-small": "Stargaze & Enjoy a Picnic in the Hills as You Stay at a Unique A-Framed Cottage | Urna Boutique Stay",
+          "color-dark-green": "Mukteshwar",
+          "background-dark-green": "3D · 2N",
+          "display-inline-block 2": "₹ 8,600",
+          "overflow-hidden src": "data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        },
+        {
+          "image-100 src": "https://cdn1.tripoto.com/media/filter/tst/img/2176903/Image/1657204838_omya_img_cover_b.jpg",
+          "margin-top-small": "Enjoy Paragliding Amidst Mountains & Explore The Local Culture | Omya Forest Camps, Bir",
+          "color-dark-green": "Bir",
+          "background-dark-green": "3D · 2N",
+          "display-inline-block 2": "₹ 10,770",
+          "overflow-hidden src": "data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        },
+        {
+          "image-100 src": "https://cdn1.tripoto.com/media/filter/tst/img/2163002/Image/1640323403_image_cover_b.jpg",
+          "margin-top-small": "Learn Yoga While Unwinding Amidst Nature & Hike to a Gorgeous Waterfall | Nature Care Village",
+          "color-dark-green": "Rishikesh",
+          "background-dark-green": "3D · 2N",
+          "display-inline-block 2": "₹ 4,799",
+          "overflow-hidden src": "data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        },
+        {
+          "image-100 src": "https://cdn1.tripoto.com/media/filter/tst/img/2176903/Image/1653394847_nw_c2.jpg",
+          "margin-top-small": "Stargaze & Pluck Your Own Herbs For Tea at This Kumaoni Retreat | Once Upon a Forest, Hariyal",
+          "color-dark-green": "Nainital",
+          "background-dark-green": "3D · 2N",
+          "display-inline-block 2": "₹ 5,900",
+          "overflow-hidden src": "data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        },
+        {
+          "image-100 src": "https://cdn1.tripoto.com/media/filter/tst/img/2176903/Image/1657734830_image_cover_a.jpg",
+          "margin-top-small": "Explore One of Asia's Spookiest Spots While Unwinding Amidst Nature | Seegreen Lodges, Mussoorie",
+          "color-dark-green": "Mussoorie",
+          "background-dark-green": "3D · 2N",
+          "display-inline-block 2": "₹ 7,500",
+          "overflow-hidden src": "data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        },
+        {
+          "image-100 src": "https://cdn1.tripoto.com/media/filter/tst/img/2176903/Image/1662966110_image_cover_2.jpg",
+          "margin-top-small": "Unwind with a Karaoke Session & an Open-Air Movie at This Village-Themed Retreat | a Kasauli Ggaon",
+          "color-dark-green": "Himachal Pradesh",
+          "background-dark-green": "3D · 2N",
+          "display-inline-block 2": "₹ 8,500",
+          "overflow-hidden src": "data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        }
+       ]
+  }
