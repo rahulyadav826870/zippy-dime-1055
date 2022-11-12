@@ -13,52 +13,52 @@ import "../style.css";
 // import required modules
 import { Pagination, Navigation } from "swiper";
 
-export default function Sliders({ data,heading,setData }) {
+export default function Sliders({ data,heading,setData,HighToLow,LowToHigh,text1,text2,slide1=3,slide2=3 ,text,personText,img}) {
 
     
-    const HighToLow = () => {
+    // const HighToLow = () => {
 
-        // const data1 = data.sort(
-        //   function (a, b) {
-        //     return a.price - b.price
-        //   }
+    //     // const data1 = data.sort(
+    //     //   function (a, b) {
+    //     //     return a.price - b.price
+    //     //   }
 
-        // )
-        // // console.log("Click")
-        // setData(data1)
-        // // getData({ sort: "price", order: "asc" })
-    }
+    //     // )
+    //     // // console.log("Click")
+    //     // setData(data1)
+    //     // // getData({ sort: "price", order: "asc" })
+    // }
 
-    const LowToHigh = () => {
+    // const LowToHigh = () => {
 
-        const data1 = data.sort(
-          function (a, b) {
-            // let numPrice=Number(a.price)
-            // let numPrice1=Number(b.price)
-            // console.log(typeof(numPrice))
-            // return numPrice -numPrice1
-            return a.price - b.price
-          }
-        )
-        console.log(data1)
-        setData(data1)
-        // console.log("Click")
-    }
+    //     const data1 = data.sort(
+    //       function (a, b) {
+    //         // let numPrice=Number(a.price)
+    //         // let numPrice1=Number(b.price)
+    //         // console.log(typeof(numPrice))
+    //         // return numPrice -numPrice1
+    //         return a.price - b.price
+    //       }
+    //     )
+    //     console.log(data1)
+    //     setData(data1)
+    //     // console.log("Click")
+    // }
 
     return (
         <>
 
             <div style={{ display: "flex", justifyContent: "space-around",marginTop:"160px" }}>
                 <Heading> {heading} </Heading>
-                <button onClick={HighToLow}>High To Low</button>
-                <button onClick={LowToHigh}>Low To High</button>
+                <button onClick={HighToLow} style={{display:"none"}}>{text1}</button>
+                <button onClick={LowToHigh}>{text2}</button>
 
             </div>
 
             <Swiper
-                slidesPerView={3}
+                slidesPerView={slide1}
                 spaceBetween={30}
-                slidesPerGroup={3}
+                slidesPerGroup={slide2}
                 loop={true}
                 loopFillGroupWithBlank={true}
                 pagination={{
@@ -70,28 +70,20 @@ export default function Sliders({ data,heading,setData }) {
             >
                 {data.map(el => {
 
-                    return <SwiperSlide><img src={el.image} alt="" />
-                      <p>{"PACKAGE"}</p>
+                    return <SwiperSlide><img style={{borderRadius: "20px"}} src={el.image} alt="" />
+                      <p>{text}</p>
                             <p>{el.des}</p>
                             <div>
                                 <p>{el.location}</p>
                                 <p>{el.dayNight}</p>
                             </div>
-                            <p>{el.price}{"/"}{"person"}</p>
+                            <p>{el.price}{personText}</p>
 
                     </SwiperSlide>
                 }
 
 
                 )}
-                {/* <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide> */}
             </Swiper>
         </>
     );

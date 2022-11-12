@@ -89,11 +89,7 @@
           "dayNight": "3D · 2N",
           "price": "7500"
           
-        }
-      
-       ],
-       "new":[
-       
+        },
         {
           "id":"11",
           "image": "https://cdn1.tripoto.com/media/filter/tst/img/2176903/Image/1662966110_image_cover_2.jpg",
@@ -102,9 +98,211 @@
           "dayNight": "3D · 2N",
           "price": "8500"
           
+        },{
+          "id":"37",
+          "image": "https://cdn1.tripoto.com/media/filter/tst/img/2176903/Image/1645772836_image_cover.jpg",
+          "des": "Stargaze & Enjoy a Picnic in the Hills as You Stay at a Unique A-Framed Cottage | Urna Boutique Stay",
+          "location": "Mukteshwar",
+          "dayNight": "3D · 2N",
+          "price": "8600"
+          
+        }
+      
+       ],
+       "treading":[
+       
+        {
+          "id":"12",
+          "image": "https://cdn1.tripoto.com/media/filter/tst/img/1524784/Image/1565782455_ladakh_app.jpg",
+          "des":"Leh Ladakh packages",
+          "location": "Ladakh",
+          "dayNight": "6D · 5N",
+          "price": "₹ 25,000"
+          
+        },
+        {
+          "id":"13",
+          "image": "https://cdn1.tripoto.com/media/filter/tst/img/1524784/Image/1567063251_kashmir_app.jpg",
+          "des":"Kashmir Packages",
+          "location": "Kashmir",
+          "dayNight": "4D · 3N",
+          "price": "8500"
+          
+        }, {
+          "id":"14",
+          "image": "https://cdn1.tripoto.com/media/filter/tst/img/1524784/Image/1567494998_andaman_app.jpg",
+          "des":"Andaman Packages",
+          "location": "Andaman",
+          "dayNight": "5D · 4N",
+          "price": "18000"
+          
+        }, {
+          "id":"15",
+          "image": "https://cdn1.tripoto.com/media/filter/tst/img/1524784/Image/1567768782_spiti_app.jpg",
+          "des":"Spiti Valley Packages",
+          "location": "Spiti Valley",
+          "dayNight": "7D · 6N",
+          "price": "22000"
+          
+        }, {
+          "id":"16",
+          "image": "https://cdn1.tripoto.com/media/filter/tst/img/1524784/Image/1565782355_kerala_app.jpg",
+          "des":"Kerala Packages",
+          "location": "Kerala",
+          "dayNight": "4D · 3N",
+          "price": "12000"
+          
+        }, {
+          "id":"17",
+          "image": "https://cdn1.tripoto.com/media/filter/tst/img/1524784/Image/1567683210_north_east_web.jpg",
+          "des":"North East India Tour Packages",
+          "location": "Northeast India",
+          "dayNight": "5D · 4N",
+          "price": "29000"
+          
+        }, {
+          "id":"18",
+          "image": "https://cdn1.tripoto.com/media/filter/tst/img/1524784/Image/1567083559_rajasthan_app.jpg",
+          "des":"Rajasthan Packages",
+          "location": "Rajasthan",
+          "dayNight": "4D · 3N",
+          "price": "14000"
+          
+        }, {
+          "id":"19",
+          "image": "https://cdn1.tripoto.com/media/filter/tst/img/2/Image/1555426507_1552566979_manali_ppc.jpg",
+          "des":"Manali Tour Package",
+          "location": "Manali",
+          "dayNight": "6D · 5N",
+          "price": "18000"
+          
+        },
+        {
+          "id":"20",
+          "image": "https://cdn1.tripoto.com/media/filter/tst/img/1524784/Image/1567081230_goa_app.jpg",
+          "des":"Goa Packages",
+          "location": "Goa",
+          "dayNight": "5D · 4N",
+          "price": "12000"
+          
         }
        
+       ],
+       "home1":[
+        {
+          "id":"21",
+          "image":"https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660817736_078_commonarea_07_min.jpg",
+          "des":"Visit These 7 Chic Bars in Singapore if You are in the Mood to Live up the Night!",
+          "location":"singapore tourism Board"
+        },{
+          "id":"22",
+          "image":"https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1666862339_1666247652_26_4o693h3.jpg",
+          "des":"These Gorgeous goSTOPS Hostels are Perfect for Those Looking To Celebrate a Green Diwali",
+          "location":"goSTOPS"
+        },{
+          "id":"23",
+          "image":"https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1660808085_shutterstock_1611239635_min.jpg",
+          "des":"This Quiz on Saudi Will Help You Design Your Best Adventure!",
+          "location":"saudi tourism authority"
+        },{
+          "id":"24",
+          "image":"https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1663242404_1662994966_gostops_ooty_1.jpg",
+          "des":"This Hostel Is a 100-Year-Old Colonial Bungalow Set in the Scenic Western Ghats",
+          "location":"GOSTOPS"
+        },{
+          "id":"25",
+          "image":"https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1663242404_1662994966_gostops_ooty_1.jpg",
+          "des":"Student in London? Here’s Your Guide to Affordable and Exciting Ways to Explore The City!",
+          "location":"AmberStudent"
+        },{
+          "id":"26",
+          "image":"https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1659354694_yaopey_yong_flmptucjkto_unsplash.jpg",
+          "des":"9 Hours From Delhi, This goSTOPS Hostel in Manali Offers Spectacular Views With a Dose of Fun",
+          "location":"GOSTOPS"
+        },{
+          "id":"27",
+          "image":"https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1661937030_manali_5_1.jpg",
+          "des":"Experience the Best of Monsoon at These Tren",
+          "location":"GOSTOPS"
+        },{
+          "id":"28",
+          "image":"https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1661937030_manali_5_1.jpg",
+          "des":"Experience the Best of Monsoon at These Trendy goSTOPS Stays Under Rs 2,000",
+          "location":"GOSTOPS"
+        }
+       ],
+       "home2" :[
+        {
+          "id":"29",
+          "image":"https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1666949436_1666075538_shutterstock_1243206058.jpg",
+          "name":"Tanisha Mundra",
+          "des":"Cheapest Domestic Flights for November & December 2022"
+        },{
+          "id":"30",
+          "image":"https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1666949548_1572875553_1572875541403.jpg",
+          "name":"Rohit Kumar Gupta",
+          "des":"Cherry Blossoms are About to Bloom in Shillong This Season"
+        },{
+          "id":"31",
+          "image":"https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1666949651_1636600759_110.png",
+          "name":"Kadambari Bhatte (curlytravelmess)",
+          "des":"10 Best Places To Experience the Chills This Winter"
+        },{
+          "id":"32",
+          "image":"https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1666949736_1635179153_pahalgam_gulmarg.jpeg",
+          "name":"Karishma Shaikh",
+          "des":"15 Winter Destinations, That are Not Shimla or Manali"
+        },{
+          "id":"33",
+          "image":"https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1666950604_1666207073_hornbill_festival_pix_by_vikramjit_kakati.jpg",
+          "name":" Amrita",
+          "des":"This Novemeber, Go for a Trek at IndiaThis Novemeber, Go for a Trek at India"
+        },{
+          "id":"34",
+          "image":"https://static2.tripoto.com/media/filter/tst/img/192200/TripDocument/1571216585_adrithcollage.jpg",
+          "name":"Disha Kapkoti",
+          "des":"Trips to Take with Your Bae This Winter in IndiaNagaland's Hornbill Festival is Happening this December"
+        },{
+          "id":"35",
+          "image":"https://static2.tripoto.com/media/filter/tst/img/1/SpotDocument/1478950878_1453102404_panamik_hot_geyser_springs_in_nubra_valley_ladakh.jpg",
+          "name":"Mouna Nanaiah",
+          "des":"This Novemeber, Go for a Trek at India"
+        },{
+          "id":"36",
+          "image":"https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1666949788_1508739878_img_9360.jpg",
+          "name":"Shruti Singh",
+          "des":"Nagaland's Hornbill Festival is Happening this December"
+        }
+       ],
+       "placeData":[
+        {
+          "id":"38",
+          "image":"https://cdn1.tripoto.com/media/filter/tst/img/1756031/Image/1599216481_rajasthan.jpg"
+        },
+        {
+          "id":"39",
+          "image":"https://cdn1.tripoto.com/media/filter/tst/img/1756031/Image/1599216560_kerala.jpg"
+        },  {
+          "id":"40",
+          "image":"https://cdn1.tripoto.com/media/filter/tst/img/1756031/Image/1599216649_andaman.jpg"
+        },  {
+          "id":"41",
+          "image":"https://cdn1.tripoto.com/media/filter/tst/img/1339961/Image/1613732339_1_10.jpg"
+        },  {
+          "id":"42",
+          "image":"https://cdn1.tripoto.com/media/filter/tst/img/1339961/Image/1613732387_3_7.jpg"
+        },  {
+          "id":"43",
+          "image":"https://cdn1.tripoto.com/media/filter/tst/img/1339961/Image/1613732417_2_10.jpg"
+        },  {
+          "id":"44",
+          "image":"https://cdn1.tripoto.com/media/filter/tst/img/1339961/Image/1613732456_dubai.jpg"
+        },  {
+          "id":"45",
+          "image":"https://cdn1.tripoto.com/media/filter/tst/img/1339961/Image/1613732480_4_4.jpg"
+        }
        ]
   }
+
 }
 
