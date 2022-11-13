@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { navItems } from "./NavItems";
-import Button from "./Button";
+
 import Dropdown from "./Dropdown";
 // import navbarBackgroud from "../images/navbarBackgroud.jpg";
 import { Link } from "react-router-dom";
@@ -45,7 +45,7 @@ export default function MainNavbar() {
               );
             })}
           </ul>
-          <Button />
+      
         </div>
 
 

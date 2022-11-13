@@ -2,7 +2,7 @@
 
 import "./Navbar.css";
 
-import { Heading } from '@chakra-ui/react'
+import { Heading,Input } from '@chakra-ui/react'
 import MainNavbar from "./MainNavbar";
 
 const headingStyle = {
@@ -17,7 +17,9 @@ function Navbar({url}) {
   }
 
 const url1={
-  backgroundImage:`url(${url})`
+  backgroundImage:`url(${url})`,
+  backgroundRepeat:" no-repeat",
+  backgroundSize: "cover"
 }
   return (
     <div >
@@ -33,6 +35,7 @@ const url1={
           <Heading style={headingStyle}>India's Largest Community of Travellers</Heading>
         </div>
         <input placeholder='Search for itineraries, destinations, hotels or activities'  className="inputClass" />
+        {/* <Input Spacing={"6"} placeholder='Search for itineraries, destinations, hotels or activities' /> */}
       </div>
     </div>
   );

@@ -12,6 +12,9 @@ import Beaches from "../pages/Beaches"
 import Inspirations from "../pages/Inspirations"
 import Home from './Home'
 import Heritage from "../pages/Heritage"
+import Admin from '../Admin/Admin'
+import SignIn from '../pages/SignIn'
+import Signup from '../pages/Signup'
 export default function AllRoutes() {
 
 
@@ -26,15 +29,17 @@ export default function AllRoutes() {
          {/* <Route path="/Inspirations" element={<Inspirations />} /> */}
          <Route path="/navbar" element={<Navbar />} />
 <Route path="/packages" element={<Packages />} />
-<Route path='/Forum'  element={<Form />}  />
+<Route path='/Book'  element={<Form />}  />
+<Route path='/admin'  element={< Admin/>}  />
 <Route path='/Visit Singapore'  element={<VisitSingapore />}  />
 <Route path='/Beaches'  element={<Beaches />}  />
 <Route path='/Mountains'  element={<Mountains />}  />
 <Route path='/Heritage'  element={<Heritage />}  />
-{/* <Route path='/packages/Visit Singapore'  element={<VisitSingapore />}  />
-<Route path='/packages/Beaches'  element={<Beaches />}  />
-<Route path='/packages/Mountains'  element={<Mountains />}  />
-<Route path='/packages/Heritage'  element={<Heritage />}  /> */}
+<Route path='/signin'  element={<SignIn />}  />
+<Route path='/Signup'  element={<Signup />}  />
+
+
+
 
  </Routes> 
  {/* <Navbar /> */}
