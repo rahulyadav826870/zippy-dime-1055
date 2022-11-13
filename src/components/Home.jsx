@@ -37,7 +37,7 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      <h1>This is Home</h1>
+  
       <div style={{ display: "flex", justifyContent: "space-evenly", margin: "30px 0px 0px 0px" }}>
         <img style={{ width: "300px",borderRadius: "20px" }} src='https://cdn1.tripoto.com/media/filter/tst/img/311219/Image/1657192329_aa.png' alt='img' />
 

@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useContext, useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Heading } from '@chakra-ui/react'
@@ -12,9 +12,12 @@ import "../style.css";
 
 // import required modules
 import { Pagination, Navigation } from "swiper";
+import { cartContext } from "../context/CartProvider";
 
-export default function Sliders({ data,heading,setData,HighToLow,LowToHigh,text1,text2,slide1=3,slide2=3 ,text,personText,img}) {
+export default function Sliders({ data,heading,setData,HighToLow,LowToHigh,text1,text2,slide1=3,slide2=3 ,text,personText,img,addText}) {
 
+
+    const {cart,addToCart} =useContext(cartContext)
     
     // const HighToLow = () => {
 
@@ -45,17 +48,23 @@ export default function Sliders({ data,heading,setData,HighToLow,LowToHigh,text1
     //     // console.log("Click")
     // }
 
+    const handleAdd=(data)=>{
+        addToCart(data)
+        console.log(data)
+    }
+// console.log(cart)
     return (
         <>
 
             <div style={{ display: "flex", justifyContent: "space-around",marginTop:"160px" }}>
-                <Heading> {heading} </Heading>
+                <Heading m={" 20px auto"} > {heading} </Heading>
                 <button onClick={HighToLow} style={{display:"none"}}>{text1}</button>
                 <button onClick={LowToHigh}>{text2}</button>
 
             </div>
 
-            <Swiper
+
+            <Swiper ml={"2%"}
                 slidesPerView={slide1}
                 spaceBetween={30}
                 slidesPerGroup={slide2}
@@ -70,7 +79,7 @@ export default function Sliders({ data,heading,setData,HighToLow,LowToHigh,text1
             >
                 {data.map(el => {
 
-                    return <SwiperSlide><img style={{borderRadius: "20px"}} src={el.image} alt="" />
+                    return <SwiperSlide ><img style={{borderRadius: "20px"}} src={el.image} alt="" />
                       <p>{text}</p>
                             <p>{el.des}</p>
                             <div>
@@ -78,7 +87,7 @@ export default function Sliders({ data,heading,setData,HighToLow,LowToHigh,text1
                                 <p>{el.dayNight}</p>
                             </div>
                             <p>{el.price}{personText}</p>
-
+<button onClick={()=>handleAdd(el)}>{addText}</button>
                     </SwiperSlide>
                 }
 

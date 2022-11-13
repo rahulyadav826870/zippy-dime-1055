@@ -1,0 +1,48 @@
+{
+  "posts": [
+    {
+      "id": "89back end",
+      "title": "back end"
+    },
+    {
+      "id": "37Masai",
+      "title": "Masai"
+    },
+    {
+      "id": "31web development",
+      "title": "web development"
+    },
+    {
+      "id": "67Crud",
+      "title": "Crud"
+    },
+    {
+      "id": "99Yaar",
+      "title": "Yaar",
+      "status": false,
+      "price": "90"
+    },
+    {
+      "id": "1Delhi ",
+      "title": "Delhi ",
+      "status": false,
+      "price": "4000"
+    },
+    {
+      "id": "2ladhak",
+      "title": "ladhak",
+      "status": false,
+      "price": "2000"
+    },
+    {
+      "id": "58Delhi",
+      "title": "Delhi",
+      "status": true,
+      "price": "2897"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

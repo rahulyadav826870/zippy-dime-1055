@@ -82,8 +82,10 @@ padding: 0px;
 }
 
 .inputClass{
-  padding: 20px 223px;
+  padding: 20px 234px;
   margin: 20px 40px 50px 40px;
   text-align: left;
   border-radius: 14px;
+  width: 57%;
+  display: inline-block;
 }
