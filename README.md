@@ -10,9 +10,6 @@ I made a website called <a href="https://trawel-world.netlify.app/Visit%20Singap
 ## Tech Stack :
   HTML5 , CSS3 , JavaScript , React , Redux , Router , Chakra , Postman ,firebase
 
-
-
-![Screenshot (98)](https://user-images.githubusercontent.com/103634544/206570877-046b7037-0903-4b5c-9512-1cbe591627ea.png)
 Screenshots
 ### HomePage :
 ## ![Screenshot (94)](https://user-images.githubusercontent.com/103634544/206570469-586ace8c-8968-4884-96d5-753613d00317.png)
