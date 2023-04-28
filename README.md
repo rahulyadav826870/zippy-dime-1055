@@ -1,5 +1,5 @@
-# Timecamp (Clone) - <a href="https://trawel-world.netlify.app/Visit%20Singapore" target="_blank" >Deployed Link</a>
-I made a website called <a href="https://trawel-world.netlify.app/Visit%20Singapore" target="_blank">Travel.com</a> which is the clone of tipoto.com website. In this website Find World Travel Guide, Tour Packages, Hotels Directory, Online details of Travel Agents and Tour Operators, Complete Tour and Travel .
+# Timecamp (Clone) - <a href="https://trawelworld.netlify.app/" target="_blank" >Deployed Link</a>
+I made a website called <a href="https://trawelworld.netlify.app/" target="_blank">Travel.com</a> which is the clone of tipoto.com website. In this website Find World Travel Guide, Tour Packages, Hotels Directory, Online details of Travel Agents and Tour Operators, Complete Tour and Travel .
 
 ## Features
 * Signup & Login functionality
