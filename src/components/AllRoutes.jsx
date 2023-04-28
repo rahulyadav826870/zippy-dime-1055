@@ -12,7 +12,7 @@ import Form from "./pages/Form";
 import Admin from "./Admin/Admin";
 import VisitSingapore from "./pages/VisitSingapore";
 import Navbar from "./Navbar/Navbar";
-import Check from "./check";
+
 
 
 export default function AllRoutes() {
