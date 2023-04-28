@@ -3,7 +3,7 @@ import AllRoutes from './components/AllRoutes';
 
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
-import Check from './components/check';
+
 
 const firebaseConfig = {
   apiKey: "AIzaSyCMFfb6BEugoI_Chx69YeR6pcffat7FpdM",
@@ -24,7 +24,7 @@ function App() {
   return (
     <div className="App">
       <AllRoutes />
-{/* <Check />     */}
+
     </div>
   );
 }
