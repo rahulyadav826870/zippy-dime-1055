@@ -19,7 +19,7 @@ padding: 0px;
 
 } */
 .image{
-  width: 100px;
+  width: 90px;
     border-radius: 54%;
     padding: 26px;
     mix-blend-mode: luminosity;
@@ -29,11 +29,12 @@ padding: 0px;
 .navbar-logo {
   color: white;
   text-decoration: none;
-  font-size: 2rem;
+  /* font-size: 2rem; */
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 10rem;
+margin-left: 20px;
 }
 
 .nav-items {
@@ -43,12 +44,13 @@ padding: 0px;
   width: 70vw;
   justify-content: flex-end;
   margin-right: 2rem;
+  
 }
 
 .nav-item {
   display: flex;
   align-items: center;
-  height: 10vh;
+  height: 50px;
 }
 
 .nav-item a {
@@ -81,11 +83,46 @@ padding: 0px;
   background: white;
 }
 
-.inputClass{
+/* .inputClass{
   padding: 20px 234px;
   margin: 20px 40px 50px 40px;
   text-align: left;
   border-radius: 14px;
   width: 57%;
   display: inline-block;
+} */
+@media only screen and (max-width:765px) {
+  /* Your CSS styles for small screens go here */
+  .image{
+    width: 80px;
+    padding: 20px;
+  }
+  .nav-item{
+    margin-right: -10%;
+  }
+
+  .nav-item a {
+    /* text-decoration: none; */
+    /* color: white; */
+    font-size: 20px;
+    margin-right: 0px;
+    padding:0px ;
+    border-radius: 5px;
+  }
+}
+
+@media only screen and (max-width:990px) {
+  .image{
+    width: 80px;
+    padding: 20px;
+  }
+}
+@media only screen and (min-width: 280px) and (max-width:375px) {
+  /* Your CSS styles for small screens go here */
+ .navbar-logo{
+  margin-left: -21px;
+ }
+ .nav-item a {
+  font-size: 16px;
+ }
 }

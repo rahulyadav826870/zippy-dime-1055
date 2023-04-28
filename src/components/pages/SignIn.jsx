@@ -12,7 +12,7 @@ import {
     useColorModeValue,
   } from "@chakra-ui/react";
   import { Link, Navigate, useNavigate } from "react-router-dom";
-import Navbar from '../components/Navbar'
+  import Navbar from '../Navbar/Navbar'
 
   
   import { getAuth, signInWithEmailAndPassword } from "firebase/auth";

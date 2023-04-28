@@ -1,5 +1,6 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
+
+import Navbar from '../Navbar/Navbar'
 import VisitSingapore from './VisitSingapore'
 
 export default function Beaches() {

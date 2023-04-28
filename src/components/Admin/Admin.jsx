@@ -6,7 +6,7 @@ import { useEffect, useState } from "react"
 import { Heading } from '@chakra-ui/react';
 import AdminAdd from "./AdminAdd";
 import Pagination from "./Pagination";
-import Navbar from "../components/Navbar";
+import Navbar from "../Navbar/Navbar";
 
 function Admin() {
   const [page,setPage] = useState(1)

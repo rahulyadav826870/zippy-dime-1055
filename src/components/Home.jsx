@@ -1,10 +1,22 @@
-import { Slider } from "@chakra-ui/react";
+import {
+  Flex,
+  Text,
+  Slider,
+  Image,
+  Grid,
+  GridItem,
+  Heading,
+  Box,
+} from "@chakra-ui/react";
 import React from "react";
-import Navbar from "./Navbar";
-import Sliders from "../pages/Sliders";
+
 import { useEffect, useState } from "react";
 import axios from "axios";
-import SetSlider from "../pages/SetSlider";
+import Navbar from "./Navbar/Navbar";
+import Sliders from "./pages/Sliders";
+import SetSlider from "./pages/SetSlider";
+import Footer from "./Footer";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   const [data, setData] = useState([]);
@@ -34,37 +46,53 @@ export default function Home() {
     <div>
       <Navbar />
 
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "space-evenly",
-          margin: "30px 0px 0px 0px",
+      <Grid
+        templateColumns={{
+          base: "repeat(2, 1fr)",
+          lg: "repeat(4, 1fr)",
         }}
+        gap={6}
+        my={"4%"}
+        mx="4%"
       >
-        <img
-          style={{ width: "300px", borderRadius: "20px" }}
-          src="https://cdn1.tripoto.com/media/filter/tst/img/311219/Image/1657192329_aa.png"
-          alt="img"
-        />
+        <GridItem>
+          <Link to={"/packages"}>
+          <Image
+            w="100%"
+            src="https://cdn1.tripoto.com/media/filter/tst/img/311219/Image/1657192329_aa.png"
+            alt="img"
+          />
+          </Link>
+        </GridItem>
 
-        <img
-          style={{ width: "300px" }}
-          src="https://cdn1.tripoto.com/media/filter/tst/img/311219/Image/1657192307_cc.png"
-          alt="img"
-        />
-
-        <img
-          style={{ width: "300px", borderRadius: "20px" }}
-          src="https://cdn1.tripoto.com/media/filter/tst/img/311219/Image/1657192273_bb.png"
-          alt="Dan Abramov"
-        />
-
-        <img
-          style={{ width: "300px", borderRadius: "20px" }}
-          src="https://cdn1.tripoto.com/media/filter/tst/img/311219/Image/1657192344_dd.png"
-          alt="al"
-        />
-      </div>
+        <GridItem>
+        <Link to={"/packages"}>
+          <Image
+            w="100%"
+            src="https://cdn1.tripoto.com/media/filter/tst/img/311219/Image/1657192307_cc.png"
+            alt="img"
+          />
+          </Link>
+        </GridItem>
+        <GridItem>
+        <Link to={"/packages"}>
+          <Image
+            w="100%"
+            src="https://cdn1.tripoto.com/media/filter/tst/img/311219/Image/1657192273_bb.png"
+            alt="Dan Abramov"
+          />
+          </Link>
+        </GridItem>
+        <GridItem>
+        <Link to={"/packages"}>
+          <Image
+            w="100%"
+            src="https://cdn1.tripoto.com/media/filter/tst/img/311219/Image/1657192344_dd.png"
+            alt="al"
+          />
+          </Link>
+        </GridItem>
+      </Grid>
 
       <Sliders
         slide1={4}
@@ -75,37 +103,51 @@ export default function Home() {
 
       <SetSlider />
 
-      <div
-        style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(4,1fr)",
-          gridTemplateRows: "2",
-          textAlign: "center",
-          gap: "10px",
-          margin: "auto 20px",
-          padding: "10px",
+      <Heading
+        ml="4%"
+        mt="4%"
+        mb={{ base: "-4%", md: "0%", lg: "1%" }}
+        fontSize={{ base: "20px", lg: "28px" }}
+      >
+        Find Best Places to Visit in India in April & May
+      </Heading>
+      <Grid
+        templateColumns={{
+          base: "repeat(2, 1fr)",
+          md: "repeat(3, 1fr)",
+          lg: "repeat(4, 1fr)",
         }}
+        mx={"4%"}
+        gap={10}
       >
         {gridData.map((el) => (
-          <div key={el.id} style={{ marginBottom: "50px" }}>
-            <img
-              style={{ width: "90%", height: "80%", borderRadius: "20px" }}
+          <GridItem my={{ base: "34%", md: "12%", lg: "2%" }} key={el.id}>
+            <Image
+              h="75%"
+              borderRadius={"5px"}
               src={el.image}
               alt="travel img"
             />
-            <h2 style={{ fontSize: "17px", textAlign: "left" }}>{el.des}</h2>
-            <p style={{ fontSize: "17px", textAlign: "left", color: "blue" }}>
-              By {el.name}
+            <Text textAlign={"left"} fontWeight="700" fontSize={"17px"}>
+              {el.des}
+            </Text>
+            <p style={{ fontSize: "14px", textAlign: "left" }}>
+              By <span style={{ color: "#2f9bdb" }}>{el.name}</span>
             </p>
-          </div>
+          </GridItem>
         ))}
-      </div>
+      </Grid>
 
-      <img
-        style={{ margin: "5%", width: "90%", borderRadius: "20px" }}
-        src="https://cdn1.tripoto.com/media/filter/nxxl/img/2215463/Image/1666956480_rajasthan_1.jpg"
-        alt=""
-      />
+      <Box mt={"8%"} mb="4%">
+        <Image
+          display={"block"}
+          m={"auto"}
+          width={"92%"}
+          borderRadius={"5px"}
+          src="https://cdn1.tripoto.com/media/filter/nxxl/img/2215463/Image/1666956480_rajasthan_1.jpg"
+          alt=""
+        />
+      </Box>
 
       <Sliders
         text="PACKAGE"
@@ -119,6 +161,7 @@ export default function Home() {
         personText=" onward"
         heading="Book Budget Tour Packages Curated For You"
         data={tradingData}
+        // smallCart={true}
       />
 
       <Sliders
@@ -127,6 +170,9 @@ export default function Home() {
         heading="Plan Your Next Trip Using Tripoto's Complete Destination Guides"
         data={place}
       />
+      <hr style={{ marginTop: "5%" }} />
+      <Footer />
+      <hr />
     </div>
   );
 }

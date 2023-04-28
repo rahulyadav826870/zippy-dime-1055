@@ -1,6 +1,7 @@
 #app { height: 100% }
 html,
 body {
+  
   position: relative;
   height: 100%;
 }
@@ -12,6 +13,7 @@ body {
   color: #000;
   margin: 0;
   padding: 0;
+/* box-sizing: border-box; */
 }
 
 .swiper {
@@ -19,9 +21,7 @@ body {
   width: 100%;
   height: 100%;
 }
-.swiper-wrapper{
-  margin-left: 2%;
-}
+
 .swiper-slide {
   text-align: center;
   font-size: 18px;
@@ -48,6 +48,20 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.book{
+  border: 1px solid #359391;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #359391;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  /* margin: 10px; */
+  font-size: 14px;
+  cursor: pointer;
 }
 
 
