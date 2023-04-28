@@ -1,4 +1,4 @@
-# Timecamp (Clone) - <a href="https://trawelworld.netlify.app/" target="_blank" >Deployed Link</a>
+# TravelWorld (Clone) - <a href="https://trawelworld.netlify.app/" target="_blank" >Deployed Link</a>
 I made a website called <a href="https://trawelworld.netlify.app/" target="_blank">Travel.com</a> which is the clone of tipoto.com website. In this website Find World Travel Guide, Tour Packages, Hotels Directory, Online details of Travel Agents and Tour Operators, Complete Tour and Travel .
 
 ## Features
